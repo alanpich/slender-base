@@ -4,7 +4,7 @@
     "description": "Bundle of Slender modules to set up an app",
     "keywords": ["slender-module","assets","expose"],
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "homepage": "http://alanpich.github.io/slender",
     "authors": [
         {
