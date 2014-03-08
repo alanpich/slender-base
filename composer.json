@@ -14,5 +14,10 @@
     ],
     "require": {
 
+    },
+    "autoload": {
+        "psr-4": {
+            "Slender\\Base\\": "src"
+        }
     }
 }
