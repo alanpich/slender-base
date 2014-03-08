@@ -13,6 +13,6 @@ class SlenderModule implements ModulePathProviderInterface
      */
     public static function getModulePath()
     {
-        return dirname(__FILE__);
+        return dirname(__DIR__);
     }
 }

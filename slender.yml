@@ -10,3 +10,4 @@ module:
     - Slender\Module\ServiceManager
     - Slender\Module\Twig
     - Slender\Module\RouteManager
+    - Slender\Module\AssetExposer
