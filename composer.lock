@@ -1,0 +1,252 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "26ec7967404bb052738437de85b50551",
+    "packages": [
+        {
+            "name": "slender/asset-exposer",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alanpich/slender-asset-exposer.git",
+                "reference": "22e46ce8397180d369d61eba5a09f738d63f4ff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alanpich/slender-asset-exposer/zipball/22e46ce8397180d369d61eba5a09f738d63f4ff6",
+                "reference": "22e46ce8397180d369d61eba5a09f738d63f4ff6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "slender/slender": "dev-develop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slender\\Module\\AssetExposer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Pich",
+                    "email": "alan.pich@gmail.com"
+                }
+            ],
+            "description": "Expose module assets over http",
+            "homepage": "http://alanpich.github.io/slender",
+            "keywords": [
+                "assets",
+                "expose",
+                "slender-module"
+            ],
+            "time": "2014-03-08 18:54:37"
+        },
+        {
+            "name": "slender/route-manager",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alanpich/slender-route-manager.git",
+                "reference": "fc847a644c4e2c0a6e24215a12f0b3ecd0c3f176"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alanpich/slender-route-manager/zipball/fc847a644c4e2c0a6e24215a12f0b3ecd0c3f176",
+                "reference": "fc847a644c4e2c0a6e24215a12f0b3ecd0c3f176",
+                "shasum": ""
+            },
+            "require-dev": {
+                "slender/slender": "dev-develop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slender\\Module\\RouteManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Pich",
+                    "email": "alan.pich@gmail.com"
+                }
+            ],
+            "description": "RouteManager module for Slender",
+            "homepage": "http://alanpich.github.io/slender",
+            "keywords": [
+                "route",
+                "router",
+                "routing",
+                "slender-module"
+            ],
+            "time": "2014-03-08 17:39:26"
+        },
+        {
+            "name": "slender/service-manager",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alanpich/slender-service-manager.git",
+                "reference": "8b04c82bdf681930633c32995b505511f1549511"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alanpich/slender-service-manager/zipball/8b04c82bdf681930633c32995b505511f1549511",
+                "reference": "8b04c82bdf681930633c32995b505511f1549511",
+                "shasum": ""
+            },
+            "require-dev": {
+                "slender/slender": "dev-develop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slender\\Module\\ServiceManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Pich",
+                    "email": "alan.pich@gmail.com"
+                }
+            ],
+            "description": "Register DI services in config files",
+            "homepage": "http://alanpich.github.io/slender",
+            "keywords": [
+                "config",
+                "dependency injection",
+                "service",
+                "slender-module"
+            ],
+            "time": "2014-03-08 17:48:08"
+        },
+        {
+            "name": "slender/twig",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alanpich/slender-twig.git",
+                "reference": "5117a72f1b42f332351a42f662ecc1ce4ceacee7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alanpich/slender-twig/zipball/5117a72f1b42f332351a42f662ecc1ce4ceacee7",
+                "reference": "5117a72f1b42f332351a42f662ecc1ce4ceacee7",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "v1.15.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slender\\Module\\Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Pich",
+                    "email": "alan.pich@gmail.com"
+                }
+            ],
+            "description": "Integrate twig templating with Slender",
+            "homepage": "http://alanpich.github.io/slender",
+            "keywords": [
+                "slender-module",
+                "template",
+                "twig"
+            ],
+            "time": "2014-03-08 21:35:49"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.15-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-02-13 10:19:29"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
