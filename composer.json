@@ -1,0 +1,23 @@
+{
+    "name": "slender/base",
+    "type": "library",
+    "description": "Bundle of Slender modules to set up an app",
+    "keywords": ["slender-module","assets","expose"],
+    "license": "MIT",
+    "version": "0.1.0",
+    "homepage": "http://alanpich.github.io/slender",
+    "authors": [
+        {
+            "name": "Alan Pich",
+            "email": "alan.pich@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Slender\\Base\\": "src"
+        }
+    }
+}
